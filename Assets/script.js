@@ -8,7 +8,7 @@ function generatePassword() {
   var result = ""
   var letters = "abcdefghijklmnopqrstuvwxyz"
   var numbers = [1,2,3,4,5,6,7,8,9,0]
-  var char = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+  var characters = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
   const passwordLength = prompt("What is the password length? min:8 max:128")
   if (isNaN(passwordLength)) {
     alert("Your password does not meet parameters");
@@ -37,7 +37,7 @@ function generatePassword() {
   };
   const spChar = confirm("Do you want to include special characters?");
   if (spChar == true) {
-    var specialCharacters = char.split("");
+    var specialCharacters = characters.split("");
     passwordArray = passwordArray.concat(specialCharacters);
   };
   if (passwordArray.length == 0) {
