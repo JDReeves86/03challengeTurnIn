@@ -9,8 +9,9 @@ function generatePassword() {
   var letters = "abcdefghijklmnopqrstuvwxyz"
   var numbers = [1,2,3,4,5,6,7,8,9,0]
   var char = " !#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
-  const passwordLength = prompt("What is the password length")
-  if (passwordLength === null) {
+  const passwordLength = prompt("What is the password length? min:8 max:128")
+  if (passwordLength == null || isNaN(passwordLength)) {
+    alert("Your password does not meet parameters");
     return "";
   };
   if (passwordLength < 8 || passwordLength >128) {
