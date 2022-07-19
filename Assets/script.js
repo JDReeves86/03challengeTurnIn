@@ -37,13 +37,13 @@ function generatePassword() {
     var specialCharacters = char.split("");
     passwordArray = passwordArray.concat(specialCharacters);
   };
-  for (var i = 0; i < passwordLength; i++) {
-    result += passwordArray[Math.floor(Math.random() * passwordArray.length)];
-  };
   if (passwordArray.length == 0) {
     alert("You need to select at least one of the criteria to generate a password.")
     return ""
-  }
+  };
+  for (var i = 0; i < passwordLength; i++) {
+    result += passwordArray[Math.floor(Math.random() * passwordArray.length)];
+  };
     console.log(result)
     console.log(passwordArray)
   return result

@@ -52,27 +52,27 @@
 <br>
 
 3. WHEN prompted for the length of the password, the user chooses a length of at least 8 characters and no more than 128 characters
-    >The first prompt a user is met with is one where they decide the length of the password. This prompt lets them know that the minimum is 8 characters and the maximum is 128. If they choose a number outside of those parameters they receive an alert that their selection does not meet criteria and resets the page. This same alert fires if they leave the input section blank or insert soemthing other than a numeric value.
+    >The first prompt a user is met with is one where they decide the length of the password. This prompt lets them know that the minimum is 8 characters and the maximum is 128. If they choose a number outside of those parameters they receive an alert that their selection does not meet criteria and resets the page. This same alert fires if they leave the input section blank or insert soemthing other than a numeric value. Then user must input a numeric value betwen 2 & 128 to continue.
 
 <br>
 
 4. WHEN asked for character types to include in the password, the user confirms whether or not to include lowercase, uppercase, numeric, and/or special characters.
-    >
+    >Once a length is accepted, the user will see a series of prompts asking if they want to use lowercase, uppercase, numeric, and special characters. Depending on what the user inputs, these values will be placed/concatenated to an array to generate the password. Special characters were chosen from the OWASP foundation, with the exception of a few.
 
 <br>
 
 5. WHEN the user answers each prompt, input is validated and at least one character type should be selected.
-    > 
+    >Once all prompts are completed and the user has selected their desired length and character use, a final check of the length of the password array is completed. If the array length is 0, then the user has not selected any of the criteria and they receive an alert that they need to select at least one of the criteria confirmations to generate a password.
 
 <br>
 
 6. WHEN all prompts are answered a password is generated that matches the selected criteria.
-    >
+    >After the user responds to each prompt and the final check is performed and passed, a password is generated. A random password is acheived by taking the password array and iterating over it and choosing a value at random until the loop iterates over the array as many times as the user initially input. Each value chosen for each iteration is placed into a string variable declared at the beginning of the script. This string will ultimately become the output of the function. 
 
 <br>
 
 7. WHEN the password is generated it is written to the page.
-    >
+    >Once the function is done genrating a password, it is printed to the screen where the user can copy the password.
 
 <br>
 <br>
@@ -87,7 +87,7 @@
 
 <br>
 
-Header & About section
+Prompt asking for length of password.
 
 <br>
 
@@ -99,7 +99,7 @@ Header & About section
 
 <br>
 
-Projects section incl. initial project
+Example of a password generated.
 
 <br>
 
@@ -111,7 +111,19 @@ Projects section incl. initial project
 
 <br>
 
-Example of responsive layout set to iPhone SE display size in portrait mode.
+Password length selected is less than 8 or more than 128, or user input something other than a numeric value.
+
+<br>
+
+---
+
+<br>
+
+![myscreenshot](./Assets/Screenshot4.png)
+
+<br>
+
+Alert received if no criteria are selected
 
 <br>
 
@@ -122,10 +134,10 @@ Example of responsive layout set to iPhone SE display size in portrait mode.
 <br>
 
 
-Link to Github repo: https://github.com/JDReeves86/02challengeTurnIn
+Link to Github repo: https://github.com/JDReeves86/03challengeTurnIn
 
 
-Link to live page: https://jdreeves86.github.io/02challengeTurnIn/
+Link to live page: https://jdreeves86.github.io/03challengeTurnIn/
 
 <br>
 <br>
