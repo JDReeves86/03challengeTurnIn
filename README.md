@@ -1,3 +1,155 @@
+# Challenge 03 
+
+
+## Password Generator
+
+---
+
+### Contents 
+
+---
+
+1. Objectives
+2. About
+3. Screenshots
+4. Links
+5. Assignment details & grading rubric (*ignore me*)
+
+<br>
+<br>
+
+### Objectives ###
+
+---
+
+<br>
+
+1. WHEN the button to generate a password is clicked, user is presented with a series of prompts for password criteria.
+2. WHEN prompted for password criteria, the user selects which criteria to include in the password.
+3. WHEN prompted for the length of the password, the user chooses a length of at least 8 characters and no more than 128 characters.
+4. WHEN asked for character types to include in the password, the user confirms whether or not to include lowercase, uppercase, numeric, and/or special characters.
+5. WHEN the user answers each prompt, input is validated and at least one character type should be selected.
+6. WHEN all prompts are answered a password is generated that matches the selected criteria.
+7. WHEN the password is generated it is written to the page.
+
+<br>
+<br>
+
+### About ###
+
+---
+
+<br>
+
+1. WHEN the button to generate a password is clicked, user is presented with a series of prompts for password criteria.
+    >The generate password button runs the function to generate the password, but first requires user input to build criteria. These come in the form of browser alerts that take user input. Some use the alert() method and others which only need yes or no answers use the confirm() method.
+
+<br>
+
+2. WHEN prompted for password criteria, the user selects which criteria to include in the password.
+    >Once the generate password button is selected, the user is met with a series of prompts that the user will interact with to decide which criteria to use in the password. 
+
+<br>
+
+3. WHEN prompted for the length of the password, the user chooses a length of at least 8 characters and no more than 128 characters
+    >The first prompt a user is met with is one where they decide the length of the password. This prompt lets them know that the minimum is 8 characters and the maximum is 128. If they choose a number outside of those parameters they receive an alert that their selection does not meet criteria and resets the page. This same alert fires if they leave the input section blank or insert soemthing other than a numeric value.
+
+<br>
+
+4. WHEN asked for character types to include in the password, the user confirms whether or not to include lowercase, uppercase, numeric, and/or special characters.
+    >
+
+<br>
+
+5. WHEN the user answers each prompt, input is validated and at least one character type should be selected.
+    > 
+
+<br>
+
+6. WHEN all prompts are answered a password is generated that matches the selected criteria.
+    >
+
+<br>
+
+7. WHEN the password is generated it is written to the page.
+    >
+
+<br>
+<br>
+
+### Screenshots ###
+
+---
+
+<br>
+
+![myscreenshot](./Assets/Screenshot1.png)
+
+<br>
+
+Header & About section
+
+<br>
+
+  ---
+
+<br>
+
+![myscreenshot](./Assets/Screenshot2.png)
+
+<br>
+
+Projects section incl. initial project
+
+<br>
+
+  ---
+
+<br>
+
+![myscreenshot](./Assets/Screenshot3.png)
+
+<br>
+
+Example of responsive layout set to iPhone SE display size in portrait mode.
+
+<br>
+
+### Links ###
+
+---
+
+<br>
+
+
+Link to Github repo: https://github.com/JDReeves86/02challengeTurnIn
+
+
+Link to live page: https://jdreeves86.github.io/02challengeTurnIn/
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+---
+
+## Assignment Details & Grading Rubric ##
+
+---
+
+---
+
+<br>
+<br>
+
 # 03 JavaScript: Password Generator
 
 ## Your Task
