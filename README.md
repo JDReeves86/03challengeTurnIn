@@ -52,7 +52,7 @@
 <br>
 
 3. WHEN prompted for the length of the password, the user chooses a length of at least 8 characters and no more than 128 characters
-    >The first prompt a user is met with is one where they decide the length of the password. This prompt lets them know that the minimum is 8 characters and the maximum is 128. If they choose a number outside of those parameters they receive an alert that their selection does not meet criteria and resets the page. This same alert fires if they leave the input section blank or insert soemthing other than a numeric value. Then user must input a numeric value betwen 2 & 128 to continue.
+    >The first prompt a user is met with is one where they decide the length of the password. This prompt lets them know that the minimum is 8 characters and the maximum is 128. If they choose a number outside of those parameters they receive an alert that their selection does not meet criteria and resets the page. This same alert fires if they input soemthing other than a numeric value. If no input is received and the user clicks cancel, the page simply returns to the inital state. Then user must input a numeric value betwen 2 & 128 to continue.
 
 <br>
 
