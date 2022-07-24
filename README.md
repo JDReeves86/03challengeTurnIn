@@ -83,7 +83,7 @@
 
 <br>
 
-![myscreenshot](./Assets/Screenshot1.png)
+![myscreenshot](./Assets/screenshot1.png)
 
 <br>
 
@@ -95,7 +95,7 @@ Prompt asking for length of password.
 
 <br>
 
-![myscreenshot](./Assets/Screenshot2.png)
+![myscreenshot](./Assets/screenshot2.png)
 
 <br>
 
@@ -107,7 +107,7 @@ Example of a password generated.
 
 <br>
 
-![myscreenshot](./Assets/Screenshot3.png)
+![myscreenshot](./Assets/screenshot3.png)
 
 <br>
 
@@ -119,7 +119,7 @@ Password length selected is less than 8 or more than 128, or user input somethin
 
 <br>
 
-![myscreenshot](./Assets/Screenshot4.png)
+![myscreenshot](./Assets/screenshot4.png)
 
 <br>
 
